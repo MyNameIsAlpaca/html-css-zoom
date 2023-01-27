@@ -44,6 +44,10 @@ main {
     gap: 10px;
 }
 
+.main-bottom .icon:hover {
+    cursor: pointer;
+}
+
 .main-bottom .record-info .icon {
     display: flex;
     flex-flow: column wrap;
@@ -73,6 +77,10 @@ main {
     max-width: 150px;
     max-height: 100px;
     background-color: grey;
+    cursor: pointer;
 }
 
+.main-bottom .right-bottom:hover {
+    color: red;
+}
 
