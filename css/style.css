@@ -15,9 +15,45 @@ main {
 
 .main-top {
     display: flex;
-    background-color: white;
-    max-width: 100%;
     height: calc(100% - 100px);
+}
+
+.main-top .card-section {
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    width: 90%;
+    height: 90%;
+    justify-content: space-between;
+    overflow-y: auto;
+}
+
+.main-top .card-section .card {
+ width: calc(100% / 7 - 5px);
+ max-height: calc(100% / 5 - 10px);
+ position: relative;
+ margin-top: 5px;
+ min-width: 204px;
+ min-height: 125px;
+}
+
+.main-top .card-section .card img {
+    width: 100%;
+    height: 100%;
+}
+
+.main-top .card-section i {
+    color: rgba(255, 255, 255, 0.822);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(128, 128, 128, 0.719);
+    padding: 5px;
+    font-size: 15px;
+}
+
+.main-top .card-section i span {
+    font-size: 10px;
 }
 
 .main-bottom {
@@ -82,5 +118,9 @@ main {
 
 .main-bottom .right-bottom:hover {
     color: red;
+}
+
+.share {
+    color:green;
 }
 
