@@ -140,6 +140,10 @@ main {
     cursor: pointer;
 }
 
+.main-bottom .right-bottom h4 {
+    padding: 20px;
+}
+
 .main-bottom .right-bottom:hover {
     color: red;
 }
