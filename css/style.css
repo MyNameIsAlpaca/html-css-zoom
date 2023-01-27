@@ -14,8 +14,32 @@ main {
 }
 
 .main-top {
+    position: relative;
     display: flex;
     height: calc(100% - 100px);
+}
+
+.expand {
+    position: absolute;
+    color: white;
+    right: 0;
+    top: 0;
+    display: flex;
+}
+
+.expand > .fa-solid {
+    background-color: rgba(128, 128, 128, 0.384);
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.expand div {
+    background-color: rgba(128, 128, 128, 0.384);
+    padding: 5px;
+    font-size: 15px;
+    margin-right: 20px;
+    border-radius: 5px;
 }
 
 .main-top .card-section {
